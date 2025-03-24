@@ -10,18 +10,17 @@ package Inventaris_Gereja;
  * @author FANIA
  */
 public class Inventaris_Gereja {
-    public class InventarisGereja {
     // Atribut
-    private static final String namaGereja = "Santo Joan Don Bosco"; // Nama gereja tetap
-    private int id;
-    private String namaBarang;
-    private String kategori;
-    private int jumlah;
-    private String lokasi;
-    private String keterangan;
+    String namaGereja = "Santo Joan Don Bosco"; // Nama gereja tetap
+    int id;
+    String namaBarang;
+    String kategori;
+    int jumlah;
+    String lokasi;
+    String keterangan;
 
     // Constructor
-    public InventarisGereja(int id, String namaBarang, String kategori, int jumlah, String lokasi, String keterangan) {
+    public Inventaris_Gereja(int id, String namaBarang, String kategori, int jumlah, String lokasi, String keterangan) {
         this.id = id;
         this.namaBarang = namaBarang;
         this.kategori = kategori;
@@ -58,6 +57,4 @@ public class Inventaris_Gereja {
     public String getNamaBarang() {
         return namaBarang;
     }
-}
-
 }
